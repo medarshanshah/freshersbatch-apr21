@@ -84,9 +84,13 @@
 
 // Bonus
 
-1.  db.zipcodes.aggregate( [                            // doubt
-    { $group: { _id :'$state' ,
+1.  db.zipcodes.aggregate( [                            
+    { $group: { _id :'$city' ,
                 avgPopulation:{ $avg:'$pop' } } }
     ])
 
-2.
+2.  db.zipcodes.aggregate( [                            
+    { $group: { _id :'$city' ,
+                avgPopulation:{ $avg:'$pop' } } },
+    { $limit: 3 }
+    ])
