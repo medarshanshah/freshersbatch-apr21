@@ -1,0 +1,86 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+  
+
+.right{
+    position: absolute;
+    right: 5%;
+}
+.NavbarItems {
+    background: linear-gradient(90deg, rgb(28, 114, 185) 0%, rgb(34, 85, 153) 100%);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.navbar-logo {
+    color: #fff;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-gap: 10px;
+    list-style:none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+.nav-links {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.nav-links:hover
+{
+    background-color: #ececec;
+    color: rgb(35, 69, 131);
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.2s ease-out;
+}
+
+
+
+
+/* Form */
+form {
+    background: rgb(35, 69, 131);
+    padding: 50px;
+    border-radius: 0.25rem;
+    width: 50%;
+    height:80%;
+    margin-top: 80px;
+  }
+
+.form-header{
+
+    background: rgb(35, 69, 131);
+    color: #fff;
+}
+
+  .form-group {
+      color: #fff;
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+  }
+
+  .form-check-inline{
+      color: white;
+  }
+
+  
