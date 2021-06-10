@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+</head>
+<body>
+    <h1>Shopping List</h1>
+
+    <ul>
+        <h2>Items</h2>
+        <%shoppinglist.forEach((index)=>{%>
+            <li><%= index.item%></li>
+            <button formaction="/items/:id" formmethod="delete">X</button>
+        <%})%> 
+    </ul>
+
+
+    <h1>Add item into shopping list</h1>
+
+    <form id="add-item-form" method="POST" action="/items">
+        <label for="item">Item</label>
+        <input type="text" name="item" value="">
+        <label for="price">Price</label>
+        <input type="text" name="price" value="">
+        <button 
+            type="submit">Submit</button>
+    </form>
+
+<script>
+    // function resetData(){
+    //     document.getElementById('add-item-form').reset();
+    // }
+</script>
+</body>
+</html>
