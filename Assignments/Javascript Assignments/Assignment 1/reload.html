@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Good/Bad day</title>
+    </head>
+    <style>
+        h1{
+            font-size: 40px;
+        }
+    </style>
+    <body>
+        
+        <h1 id='message'></h1>
+
+
+        <script type="text/javascript">
+            window.onload = function message(){
+            var msg = Math.floor(Math.random() *2) ?'Have a GOOD day!' : 'Have a BAD day!'
+            document.getElementById('message').innerHTML = "<h1>"+msg+"</h1>"
+}
+        </script>
+    </body>
+</html>
