@@ -1,0 +1,15 @@
+[submodule "CaseStudy/cart"]
+	path = CaseStudy/cart
+	url = https://github.com/medarshanshah/cart
+[submodule "CaseStudy/order"]
+	path = CaseStudy/order
+	url = https://github.com/medarshanshah/order
+[submodule "CaseStudy/payments"]
+	path = CaseStudy/payments
+	url = https://github.com/medarshanshah/payments
+[submodule "CaseStudy/product"]
+	path = CaseStudy/product
+	url = https://github.com/medarshanshah/product
+[submodule "CaseStudy/profile"]
+	path = CaseStudy/profile
+	url = https://github.com/medarshanshah/profile
